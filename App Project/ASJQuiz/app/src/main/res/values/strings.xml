@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ASJQuiz</string>
+    <string name="asj_quiz_app">ASJ Quiz App</string>
+    <string name="kotlin_logo">kotlin logo</string>
+    <string name="start">Start</string>
+    <string name="asj_quiz">ASJ Quiz</string>
+    <string name="points">Points :</string>
+    <string name="question_1">Question 1</string>
+    <string name="how_was_your_day">How was your day</string>
+    <string name="submit">Submit</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="you_scored">You Scored</string>
+    <string name="_50_50">50 / 50</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="developed_as_part_of_gdsc_mce_asj_workshop_by_govind">Developed as part of GDSC MCE ASJ Workshop by Govind</string>
+</resources>
