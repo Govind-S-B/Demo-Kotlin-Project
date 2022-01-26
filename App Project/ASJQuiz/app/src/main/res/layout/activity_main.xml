@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#002B46"
+    android:background="#d7e3fc  "
     tools:context=".MainActivity">
 
     <TextView
@@ -12,7 +12,7 @@
         android:layout_width="178dp"
         android:layout_height="56dp"
         android:text="@string/asj_quiz_app"
-        android:textColor="#FFFFFF"
+        android:textColor="#3a0ca3 "
         android:textSize="42sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +38,7 @@
         android:id="@+id/button"
         android:layout_width="182dp"
         android:layout_height="55dp"
-        android:backgroundTint="#3CCA4F"
+        android:backgroundTint="#f72585"
         android:text="@string/start"
         android:textSize="18sp"
         android:textStyle="bold"

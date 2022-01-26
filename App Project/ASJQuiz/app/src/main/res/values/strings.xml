@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">ASJQuiz</string>
-    <string name="asj_quiz_app">ASJ Quiz App</string>
+    <string name="asj_quiz_app">Vio Quiz App</string>
     <string name="kotlin_logo">kotlin logo</string>
     <string name="start">Start</string>
-    <string name="asj_quiz">ASJ Quiz</string>
-    <string name="points">Points :</string>
+    <string name="asj_quiz">Vio Quiz</string>
+    <string name="points">Points : 0</string>
     <string name="question_1">Question 1</string>
     <string name="how_was_your_day">How was your day</string>
     <string name="submit">Submit</string>

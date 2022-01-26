@@ -14,10 +14,11 @@ class MainActivity : AppCompatActivity() {
 
     fun init(){
         var button : Button = findViewById(R.id.button)
-        var intent : Intent = Intent(this , MainActivity2::class.java)
+        var intent = Intent(this , MainActivity2::class.java)
 
         button.setOnClickListener {
             startActivity(intent)
+            finish()
         }
 
     }
