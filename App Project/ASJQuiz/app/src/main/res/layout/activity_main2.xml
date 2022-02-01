@@ -11,16 +11,17 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:shadowRadius="2"
         android:text="@string/asj_quiz"
         android:textColor="#3a0ca3 "
         android:textSize="32sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
 
     <TextView
         android:id="@+id/textView3"
@@ -66,7 +67,7 @@
         android:layout_width="342dp"
         android:layout_height="48dp"
         android:layout_marginTop="72dp"
-        android:text="@string/radiobutton"
+        android:text="@string/peepee"
         android:textColor="#3A0CA3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.313"
@@ -79,7 +80,7 @@
         android:layout_width="342dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
-        android:text="@string/radiobutton"
+        android:text="@string/peepee"
         android:textColor="#3A0CA3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.313"
@@ -96,7 +97,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.313"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <RadioButton
         android:id="@+id/radioButton4"
@@ -114,13 +116,12 @@
         android:id="@+id/button2"
         android:layout_width="175dp"
         android:layout_height="48dp"
-        android:layout_marginTop="112dp"
         android:backgroundTint="#f72585"
         android:text="@string/submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton4"
-        app:layout_constraintVertical_bias="0.025"
+        app:layout_constraintVertical_bias="0.161"
         tools:ignore="TextContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

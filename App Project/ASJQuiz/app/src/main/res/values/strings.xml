@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ASJQuiz</string>
-    <string name="asj_quiz_app">Vio Quiz App</string>
+    <string name="asj_quiz_app">Vio Quiz</string>
     <string name="kotlin_logo">kotlin logo</string>
     <string name="start">Start</string>
     <string name="asj_quiz">Vio Quiz</string>
@@ -13,4 +13,6 @@
     <string name="_50_50">50 / 50</string>
     <string name="back_to_home">Back to Home</string>
     <string name="developed_as_part_of_gdsc_mce_asj_workshop_by_govind">Developed as part of GDSC MCE ASJ Workshop by Govind</string>
+    <string name="sadge_cat">sadge cat</string>
+    <string name="peepee">peepee</string>
 </resources>

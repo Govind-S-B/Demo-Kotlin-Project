@@ -11,15 +11,15 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
         android:text="@string/you_scored"
         android:textColor="#3a0ca3 "
         android:textSize="48sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
 
     <TextView
         android:id="@+id/textView7"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="@string/_50_50"
-        android:textColor="#3a0ca3  "
+        android:textColor="#f72585"
         android:textSize="60sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +38,7 @@
         android:id="@+id/textView8"
         android:layout_width="172dp"
         android:layout_height="72dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="96dp"
         android:text="@string/developed_as_part_of_gdsc_mce_asj_workshop_by_govind"
         android:textAlignment="center"
         android:textColor="#3a0ca3 "
@@ -47,18 +47,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button3"
-        android:layout_width="204dp"
-        android:layout_height="52dp"
-        android:backgroundTint="#f72585"
-        android:text="@string/back_to_home"
-        android:textStyle="bold"
+        android:layout_width="163dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/sadge_cat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:layout_constraintVertical_bias="0.405"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/meowkie"
+        tools:ignore="SpeakableTextPresentCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

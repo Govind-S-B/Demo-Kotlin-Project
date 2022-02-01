@@ -78,52 +78,52 @@ class MainActivity2 : AppCompatActivity() {
     fun questionSetter(){
         questionBank.add(
             Question(
-                "Android is",
-                "an OS",
-                "a Browser",
-                "an App",
-                "a Hardware",
-                "an OS"
+                "Who gave Violet her name",
+                "Gilbert",
+                "Susan",
+                "Spencer",
+                "Iris",
+                "Gilbert"
             )
         )
         questionBank.add(
             Question(
-                "Android got fully x64 compatible since ",
-                "Android 5 : Lollipop",
-                "Android 4 : Jellybean",
-                "Android 7 : Nougat",
-                "Android 8 : Oreo",
-                "Android 5 : Lollipop"
+                "Why did Violet want to be an automemory doll",
+                "To escape her hometown",
+                "Because she looked up to them",
+                "To learn the meaning of I love you",
+                "To waste time",
+                "To learn the meaning of I love you"
             )
         )
         questionBank.add(
             Question(
-                "Android is developed for",
-                "PCs",
-                "Servers",
-                "Fridge",
-                "Mobile Devices",
-                "Mobile Devices"
+                "Why was the emerald brooch so important to her",
+                "It was a gift from the Major",
+                "It belonged to one of her relatives",
+                "It was the last clue to where her family was",
+                "It looked beautiful",
+                "It was a gift from the Major"
             )
         )
         questionBank.add(
             Question(
-                "Android was bought by google for",
-                "$50 billion",
-                "$100 million",
-                "$3",
-                "$50 million",
-                "50 million"
+                "How did Violet lose her arms",
+                "They were shot off during a siege",
+                "She was born without them",
+                "She lost them in a machinery incident",
+                "It belonged to one of her relatives",
+                "They were shot off during a siege"
             )
         )
         questionBank.add(
             Question(
-                "Android Started Development in",
-                "2000",
-                "2003",
-                "69",
-                "2006",
-                "2003"
+                "Who is the owner of the post office Vio worked at",
+                "Cattleya",
+                "Claudia",
+                "Benedict",
+                "Leon",
+                "Claudia"
             )
         )
     }

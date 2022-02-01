@@ -4,11 +4,12 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.TextView
 
 class MainActivity3 : AppCompatActivity() {
     private lateinit var finalScore : TextView
-    private lateinit var homeButton: Button
+    private lateinit var homeButton: ImageButton
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
