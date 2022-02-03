@@ -171,6 +171,7 @@ class MainActivity2 : AppCompatActivity() {
                 var intent = Intent(this,MainActivity3::class.java)
                 intent.putExtra("score",score.toString()) // put extra is used to pass values between activities
                 startActivity(intent)
+                finish()
             }
         }
 
